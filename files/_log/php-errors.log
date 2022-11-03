@@ -1,0 +1,14 @@
+[2022-09-27 00:12:56] glpiphplog.WARNING: Test logger  
+[2022-09-27 15:02:30] glpiphplog.WARNING:   *** PHP User Warning (512): Missing required intl PHP extension in C:\desarrollo\xampp\htdocs\glpi\src\Session.php at line 682
+  Backtrace :
+  src\Session.php:682                                trigger_error()
+  inc\config.php:69                                  Session::loadLanguage()
+  inc\includes.php:53                                include_once()
+  front\locale.php:41                                include()
+  
+[2022-09-27 15:02:52] glpiphplog.WARNING: Test logger  
+[2022-09-27 15:03:00] glpiphplog.WARNING: Test logger  
+[2022-09-27 15:03:36] glpiphplog.WARNING: Test logger  
+[2022-09-27 15:04:14] glpiphplog.WARNING: Test logger  
+[2022-09-27 15:04:30] glpiphplog.WARNING: Test logger  
+[2022-09-27 15:08:39] glpiphplog.WARNING: Test logger  
